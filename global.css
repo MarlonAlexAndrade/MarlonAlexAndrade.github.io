@@ -5,3 +5,33 @@ footer::after{
  header a{
      text-decoration: none;
  }
+ .titulos {
+    color: red;
+    font-size: large;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.usuario {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+.valor {
+    font-style: italic;
+}
+
+.dados {
+    font-size: medium;
+    color: black;
+    margin-top: 25px;
+}
+
+.campo {
+    font-weight: bold;
+}
+
+.campo::after {
+    content: ":";
+}
